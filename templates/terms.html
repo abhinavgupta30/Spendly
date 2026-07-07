@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Terms and Conditions | Spendly{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-badge">Legal Information</div>
+
+        <h1 class="hero-title">
+            Terms & <em>Conditions</em>
+        </h1>
+
+        <p class="hero-subtitle">
+            Please read these Terms and Conditions carefully before using
+            Spendly. By accessing or using the application, you agree to
+            comply with the terms described below.
+        </p>
+    </div>
+</section>
+
+<section class="features">
+    <div class="features-inner" style="display:block; max-width:900px; margin:auto;">
+
+        <h2>Acceptance of Terms</h2>
+        <p>
+            By using Spendly, you agree to these Terms and Conditions.
+            If you do not agree with any part of these terms, please stop
+            using the application.
+        </p>
+
+        <br>
+
+        <h2>Use of Service</h2>
+        <p>
+            Spendly is a personal expense tracking application designed to
+            help users manage their finances. You agree to use the service
+            responsibly and only for lawful purposes.
+        </p>
+
+        <br>
+
+        <h2>User Data</h2>
+        <p>
+            You are responsible for the accuracy of the information you
+            provide. Spendly stores your information solely to provide the
+            features of the application.
+        </p>
+
+        <br>
+
+        <h2>Limitations of Liability</h2>
+        <p>
+            Spendly is provided "as is" without warranties of any kind.
+            We are not responsible for any financial losses, data loss,
+            or damages resulting from the use of this application.
+        </p>
+
+        <br>
+
+        <h2>Changes to Terms</h2>
+        <p>
+            We may update these Terms and Conditions from time to time.
+            Continued use of Spendly after changes are published indicates
+            your acceptance of the revised terms.
+        </p>
+
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-inner">
+        <h2 class="cta-title">Thank You for Using Spendly</h2>
+
+        <p class="cta-body">
+            We appreciate your trust and are committed to helping you
+            manage your finances securely and efficiently.
+        </p>
+
+        <a href="{{ url_for('landing') }}" class="btn-primary">
+            Back to Home
+        </a>
+    </div>
+</section>
+
+{% endblock %}
