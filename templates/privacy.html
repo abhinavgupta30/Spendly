@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Privacy Policy | Spendly{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-badge">Privacy & Security</div>
+
+        <h1 class="hero-title">
+            Privacy <em>Policy</em>
+        </h1>
+
+        <p class="hero-subtitle">
+            Your privacy matters to us. This Privacy Policy explains how
+            Spendly collects, uses, and protects your personal information
+            while you use our expense tracking application.
+        </p>
+    </div>
+</section>
+
+<section class="features">
+    <div class="features-inner" style="display:block; max-width:900px; margin:auto;">
+
+        <h2>Information We Collect</h2>
+        <p>
+            Spendly may collect information such as your name, email address,
+            expense records, categories, and other data you choose to provide
+            while using the application.
+        </p>
+
+        <br>
+
+        <h2>How We Use Your Information</h2>
+        <p>
+            We use your information to provide expense tracking features,
+            improve user experience, maintain security, and enhance the
+            application's performance.
+        </p>
+
+        <br>
+
+        <h2>Data Security</h2>
+        <p>
+            We take reasonable measures to protect your information against
+            unauthorized access, disclosure, alteration, or destruction.
+            However, no online service can guarantee complete security.
+        </p>
+
+        <br>
+
+        <h2>Sharing of Information</h2>
+        <p>
+            Spendly does not sell or rent your personal information.
+            Information may only be shared when required by law or to
+            protect the integrity and security of the service.
+        </p>
+
+        <br>
+
+        <h2>Policy Updates</h2>
+        <p>
+            This Privacy Policy may be updated periodically. Continued use
+            of Spendly after changes are published indicates your acceptance
+            of the revised policy.
+        </p>
+
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-inner">
+        <h2 class="cta-title">Your Privacy is Important</h2>
+
+        <p class="cta-body">
+            Spendly is committed to protecting your personal information
+            and maintaining your trust.
+        </p>
+
+        <a href="{{ url_for('landing') }}" class="btn-primary">
+            Back to Home
+        </a>
+    </div>
+</section>
+
+{% endblock %}
